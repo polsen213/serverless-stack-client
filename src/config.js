@@ -1,7 +1,9 @@
 export default {
+    MAX_ATTACHMENT_SIZE: 5000000,
+    STRIPE_KEY: "pk_test_51H86vYJ8uaYUpck8xHKBwvxEIdUpz6icqu5cD3n37NpYRNJthjZdi0CPXkqKHjLaxrBefp9CUsSDuF92I3RjOrTa00Eja43MJ0",
     s3: {
       REGION: "us-east-1",
-      BUCKET: "notes-app-uploads"
+      BUCKET: "phils-notes-app-uploads"
     },
     apiGateway: {
       REGION: "us-east-1",
